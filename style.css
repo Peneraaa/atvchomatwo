@@ -5,11 +5,11 @@ body {
 
 /* Estilo para a foto de perfil */
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #007bff;
+    border: 4px solid #fc3c02ec;
 }
 
 /* Centralizar os textos das informações do usuário */
