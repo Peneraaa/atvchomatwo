@@ -1,9 +1,25 @@
 body {
-    background-color: #070707;
+    background-color: rgb(29, 29, 29)
 }
 
+.navbar {
+    background-color: #d03403 !important;
+}
+
+.navbar .container {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+
+}
+.navbar .navbar-brand{
+    font-weight: bold;
+
+
+
+}
 .navbar-brand {
-    color: black;
+    color: rgb(0, 0, 0);
     border-radius: 5px;
 }
 
@@ -16,12 +32,18 @@ body {
     color: white
 }
 
+.github-icon {
+    width: 30px;   
+    height: 30px;
+
+}
+
 .profile-img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #f8cc05ec;
+    border: 4px solid #d03403;
 }
 
 .text-center h3, 
@@ -37,7 +59,8 @@ body {
 
 .table th {
     text-align: center;
-    
+    background-color: #d03403; 
+    color: #000;
 }
 
 .table td {
@@ -53,5 +76,6 @@ form {
 
 button {
     width: 100%;
->>>>>>> Stashed changes
+    background-color: #d03403 !important;
+    
 }
